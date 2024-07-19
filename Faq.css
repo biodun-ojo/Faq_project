@@ -1,5 +1,20 @@
 body {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    background-image: url(assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.sub-body {
+    background-color: white;
+    margin: 20px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+
+.star {
+    width: 8%;
 }
 
 p {
