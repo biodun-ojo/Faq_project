@@ -11,6 +11,7 @@ body {
     margin: 20px;
     margin-top: 130px;
     border-radius: 10px;
+    margin-bottom: 130px;
 }
 
 .star {
@@ -19,7 +20,6 @@ body {
 
 .secs {
     border-bottom: 1px solid rgb(235, 235, 235);
-    cursor: pointer;
 }
 
 #last {
@@ -28,6 +28,11 @@ body {
 
 h6 {
     padding-right: 15px !important; 
+}    
+
+h6:hover {
+    cursor: pointer;
+    color: hsl(292, 16%, 49%);
 }
 
 p {
@@ -42,4 +47,26 @@ p {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 650px) {
+    body {
+        background-image: url(assets/images/background-pattern-desktop.svg);
+    }
+
+    .sub-body {
+        max-width: 500px;
+        margin: auto !important;
+        margin-bottom: 130px !important;
+        margin-top: 130px !important;
+
+    }
+
+    .head {
+        font-size: 45px;
+    }
+
+    .star {
+        width: auto;
+    }
 }
