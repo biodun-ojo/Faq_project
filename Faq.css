@@ -18,7 +18,12 @@ body {
 }
 
 .secs {
-    border-bottom: 1px solid hsl(0, 0%, 92%);
+    border-bottom: 1px solid rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+#last {
+    border-bottom: 0;
 }
 
 h6 {
